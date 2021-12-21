@@ -20,6 +20,8 @@
 		A2BA127F2771F1FF009F4B0F /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BA127E2771F1FF009F4B0F /* StatsView.swift */; };
 		A2BA12822771FF67009F4B0F /* StatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BA12812771FF67009F4B0F /* StatModel.swift */; };
 		A2BA1284277205B5009F4B0F /* ProductionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BA1283277205B5009F4B0F /* ProductionView.swift */; };
+		A2E1A02B277234BC00E4D4F1 /* PartnersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E1A02A277234BC00E4D4F1 /* PartnersView.swift */; };
+		A2E1A02D277234C900E4D4F1 /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E1A02C277234C900E4D4F1 /* FooterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,8 @@
 		A2BA127E2771F1FF009F4B0F /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
 		A2BA12812771FF67009F4B0F /* StatModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatModel.swift; sourceTree = "<group>"; };
 		A2BA1283277205B5009F4B0F /* ProductionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductionView.swift; sourceTree = "<group>"; };
+		A2E1A02A277234BC00E4D4F1 /* PartnersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartnersView.swift; sourceTree = "<group>"; };
+		A2E1A02C277234C900E4D4F1 /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +82,8 @@
 				A2BA127C2771F080009F4B0F /* LandingView.swift */,
 				A2BA127E2771F1FF009F4B0F /* StatsView.swift */,
 				A2BA1283277205B5009F4B0F /* ProductionView.swift */,
+				A2E1A02A277234BC00E4D4F1 /* PartnersView.swift */,
+				A2E1A02C277234C900E4D4F1 /* FooterView.swift */,
 				A2BA12712771E580009F4B0F /* Data.swift */,
 				A2BA12602771DC18009F4B0F /* Application.swift */,
 				A2BA12642771DC1A009F4B0F /* Assets.xcassets */,
@@ -199,6 +205,8 @@
 			files = (
 				A2BA12632771DC18009F4B0F /* Main.swift in Sources */,
 				A2BA1284277205B5009F4B0F /* ProductionView.swift in Sources */,
+				A2E1A02B277234BC00E4D4F1 /* PartnersView.swift in Sources */,
+				A2E1A02D277234C900E4D4F1 /* FooterView.swift in Sources */,
 				A2BA12822771FF67009F4B0F /* StatModel.swift in Sources */,
 				A2BA127D2771F080009F4B0F /* LandingView.swift in Sources */,
 				A2BA127F2771F1FF009F4B0F /* StatsView.swift in Sources */,
