@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  Main.swift
 //  thmanyahApp-swiftui
 //
 //  Created by Abdurrahman Alfudeghi on 21/12/2021.
@@ -7,15 +7,18 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct Main: View {
     var body: some View {
+        VStack {
+            
+        }
         Text("Hello, world!")
             .padding()
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct Main_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        Main()
     }
 }

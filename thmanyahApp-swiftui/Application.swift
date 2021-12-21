@@ -1,5 +1,5 @@
 //
-//  thmanyahApp_swiftuiApp.swift
+//  Application.swift
 //  thmanyahApp-swiftui
 //
 //  Created by Abdurrahman Alfudeghi on 21/12/2021.
@@ -8,10 +8,10 @@
 import SwiftUI
 
 @main
-struct thmanyahApp_swiftuiApp: App {
+struct Application: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            Main()
         }
     }
 }

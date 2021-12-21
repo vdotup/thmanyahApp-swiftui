@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A2BA12612771DC18009F4B0F /* thmanyahApp_swiftuiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BA12602771DC18009F4B0F /* thmanyahApp_swiftuiApp.swift */; };
-		A2BA12632771DC18009F4B0F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BA12622771DC18009F4B0F /* ContentView.swift */; };
+		A2BA12612771DC18009F4B0F /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BA12602771DC18009F4B0F /* Application.swift */; };
+		A2BA12632771DC18009F4B0F /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BA12622771DC18009F4B0F /* Main.swift */; };
 		A2BA12652771DC1A009F4B0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2BA12642771DC1A009F4B0F /* Assets.xcassets */; };
 		A2BA12682771DC1A009F4B0F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2BA12672771DC1A009F4B0F /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A2BA125D2771DC18009F4B0F /* thmanyahApp-swiftui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "thmanyahApp-swiftui.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A2BA12602771DC18009F4B0F /* thmanyahApp_swiftuiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thmanyahApp_swiftuiApp.swift; sourceTree = "<group>"; };
-		A2BA12622771DC18009F4B0F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A2BA12602771DC18009F4B0F /* Application.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Application.swift; sourceTree = "<group>"; };
+		A2BA12622771DC18009F4B0F /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
 		A2BA12642771DC1A009F4B0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2BA12672771DC1A009F4B0F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -51,8 +51,8 @@
 		A2BA125F2771DC18009F4B0F /* thmanyahApp-swiftui */ = {
 			isa = PBXGroup;
 			children = (
-				A2BA12602771DC18009F4B0F /* thmanyahApp_swiftuiApp.swift */,
-				A2BA12622771DC18009F4B0F /* ContentView.swift */,
+				A2BA12602771DC18009F4B0F /* Application.swift */,
+				A2BA12622771DC18009F4B0F /* Main.swift */,
 				A2BA12642771DC1A009F4B0F /* Assets.xcassets */,
 				A2BA12662771DC1A009F4B0F /* Preview Content */,
 			);
@@ -137,8 +137,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2BA12632771DC18009F4B0F /* ContentView.swift in Sources */,
-				A2BA12612771DC18009F4B0F /* thmanyahApp_swiftuiApp.swift in Sources */,
+				A2BA12632771DC18009F4B0F /* Main.swift in Sources */,
+				A2BA12612771DC18009F4B0F /* Application.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
