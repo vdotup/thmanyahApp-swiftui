@@ -9,11 +9,14 @@ import SwiftUI
 
 struct Main: View {
     var body: some View {
-        VStack {
-            
+        ScrollView(.vertical, showsIndicators: true) {
+            VStack(spacing: 0) {
+                LandingView()
+                StatsView()
+                
+            }
         }
-        Text("Hello, world!")
-            .padding()
+        .edgesIgnoringSafeArea(.all)
     }
 }
 
