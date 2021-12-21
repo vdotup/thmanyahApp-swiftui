@@ -9,7 +9,33 @@ import SwiftUI
 
 struct PartnersView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Spacer()
+                .frame(height: 150)
+            
+            Image("partners")
+                .resizable()
+                .scaledToFit()
+            
+            Spacer()
+                .frame(height: 70)
+            
+            Text(partners_title)
+                .font(.custom("IBMPlexSansArabic-SemiBold", size: 34))
+                .multilineTextAlignment(.center)
+                .foregroundColor(.vermilion)
+            
+            Spacer()
+                .frame(height: 30)
+            
+            Text(partners_description)
+                .font(.custom("IBMPlexSansArabic", size: 19))
+                .multilineTextAlignment(.center)
+            
+            Spacer()
+                .frame(height: 100)
+        }
+        .padding(.horizontal, 20)
     }
 }
 
