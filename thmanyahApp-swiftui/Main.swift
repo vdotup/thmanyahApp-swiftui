@@ -13,7 +13,9 @@ struct Main: View {
             VStack(spacing: 0) {
                 LandingView()
                 StatsView()
-                
+                ProductionView()
+                PartnersView()
+                FooterView()
             }
         }
         .edgesIgnoringSafeArea(.all)

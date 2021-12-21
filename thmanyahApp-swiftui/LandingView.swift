@@ -34,11 +34,11 @@ struct LandingView: View {
                 .frame(height: 30)
             
             VStack(spacing: 26) {
-                Text(subtitle)
+                Text(landing_subtitle)
                     .font(.custom("IBMPlexSansArabic-SemiBold", size: 26))
                     .multilineTextAlignment(.center)
                 
-                Text(description)
+                Text(landing_description)
                     .font(.custom("IBMPlexSansArabic", size: 18))
                     .multilineTextAlignment(.center)
                 
