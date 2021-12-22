@@ -8,10 +8,13 @@
 import SwiftUI
 
 struct LandingView: View {
+    
+    @Binding var showingSideBar: Bool
+    
     var body: some View {
         VStack(spacing: 0) {
             HStack {
-                Button(action: {}) {
+                Button(action: { showingSideBar.toggle() }) {
                     Image(systemName: "pause")
                         .font(.system(size: 30, weight:  .medium, design: .default))
                         .rotationEffect(.degrees(90))
@@ -57,6 +60,6 @@ struct LandingView: View {
 
 struct LandingView_Previews: PreviewProvider {
     static var previews: some View {
-        LandingView()
+        LandingView(showingSideBar: .constant(false))
     }
 }
