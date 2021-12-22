@@ -28,52 +28,18 @@ struct SideBarView: View {
                 .frame(height: 30)
             
             VStack(alignment: .leading, spacing: 20) {
-                Button(action: {}) {
-                    Text("عن الشركة")
-                        .font(.custom("IBMPlexSansArabic-SemiBold", size: 22))
-                        .foregroundColor(.vermilion)
-                }
-                
-                Button(action: {}) {
-                    Text("الدستور")
-                        .font(.custom("IBMPlexSansArabic-SemiBold", size: 22))
-                        .foregroundColor(.vermilion)
-                }
-                
-                Button(action: {}) {
-                    Text("في الإعلام")
-                        .font(.custom("IBMPlexSansArabic-SemiBold", size: 22))
-                        .foregroundColor(.vermilion)
-                }
-                
-                Button(action: {}) {
-                    Text("ثمانية الخلاقة")
-                        .font(.custom("IBMPlexSansArabic-SemiBold", size: 22))
-                        .foregroundColor(.vermilion)
-                }
-                
-                Button(action: {}) {
-                    Text("الوظائف")
-                        .font(.custom("IBMPlexSansArabic-SemiBold", size: 22))
-                        .foregroundColor(.vermilion)
-                }
-                
-                Button(action: {}) {
-                    Text("المدونة")
-                        .font(.custom("IBMPlexSansArabic-SemiBold", size: 22))
-                        .foregroundColor(.vermilion)
-                }
-                
-                Button(action: {}) {
-                    Text("اتصل بنا")
-                        .font(.custom("IBMPlexSansArabic-SemiBold", size: 22))
-                        .foregroundColor(.vermilion)
+                ForEach(sideBarItems, id: \.id) { item in
+                    Link(destination: URL(string: item.link.rawValue)!) {
+                        Text(item.title)
+                            .font(.custom("IBMPlexSansArabic-SemiBold", size: 22))
+                            .foregroundColor(.vermilion)
+                    }
                 }
             }
             .padding(.horizontal, 30)
             
             
-            Button(action: {}) {
+            Link(destination: URL(string: Links.website.rawValue)!) {
                 ZStack {
                     Capsule().stroke(Color.vermilion, lineWidth: 1)
                     Text("الذهاب لموقع ثمانية")

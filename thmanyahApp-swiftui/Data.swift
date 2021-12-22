@@ -18,7 +18,6 @@ let partners_description = "بدأنا ثمانية ببرنامج يتيم، و
 
 let copyrights = "2021 © جميع الحقوق محفوظة لشركة ثمانية للنشر والتوزيع"
 
-
 let stats: [StatModel] = [
     StatModel(title: "10", subtitle: "جوائز محلية وإقليمية"),
     StatModel(title: "10", subtitle: "برامج إذاعية"),
@@ -28,4 +27,35 @@ let stats: [StatModel] = [
     StatModel(title: "+80", subtitle: "مليون استماع"),
     StatModel(title: "+550", subtitle: "ألف تحميل أسبوعيًا"),
     StatModel(title: "21", subtitle: "حلقة جديدة شهريًا")
+]
+
+enum Links: String {
+    case website = "https://thmanyah.com/"
+    case about = "https://company.thmanyah.com/about"
+    case films = "https://company.thmanyah.com/films"
+    case handbook = "https://company.thmanyah.com/handbook"
+    case jobs = "https://company.thmanyah.com/jobs"
+    case blog = "https://company.thmanyah.com/blog"
+    case mediaKit = "https://company.thmanyah.com/media-kit"
+    case visualIdentity = "https://company.thmanyah.com/visual-identity"
+    case privacyPolicy = "https://company.thmanyah.com/privacy-policy"
+    case contact = "https://company.thmanyah.com/contact"
+    case faq = "https://company.thmanyah.com/faq"
+    case linkedIn = "https://linkedin.com/company/thmanyah"
+    case twitter = "https://twitter.com/thmanyah"
+    case facebook = "https://facebook.com/Thmanyah"
+    case instagram = "https://instagram.com/thmanyah"
+    case youtube = "https://youtube.com/channel/UCQPalfEYxVLs8nEB4LutApQ"
+    case asFeaturedInMedia = "https://company.thmanyah.com/as-featured-in-media"
+    case creative = "https://company.thmanyah.com/creative"
+}
+
+let sideBarItems: [SideBarItemModel] = [
+    SideBarItemModel(title: "عن الشركة",     link: .about),
+    SideBarItemModel(title: "الدستور",       link: .handbook),
+    SideBarItemModel(title: "في الإعلام",      link: .asFeaturedInMedia),
+    SideBarItemModel(title: "ثمانية الخلاقة", link: .creative),
+    SideBarItemModel(title: "الوظائف",       link: .jobs),
+    SideBarItemModel(title: "المدونة",       link: .blog),
+    SideBarItemModel(title: "اتصل بنا",      link: .contact)
 ]
