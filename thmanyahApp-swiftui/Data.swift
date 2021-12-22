@@ -32,7 +32,7 @@ let stats: [StatModel] = [
 enum Links: String {
     case website = "https://thmanyah.com/"
     case about = "https://company.thmanyah.com/about"
-    case films = "https://company.thmanyah.com/films"
+    case films = "https://thmanyah.com/films/"
     case handbook = "https://company.thmanyah.com/handbook"
     case jobs = "https://company.thmanyah.com/jobs"
     case blog = "https://company.thmanyah.com/blog"

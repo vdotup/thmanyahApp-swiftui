@@ -45,11 +45,11 @@ struct LandingView: View {
                     .font(.custom("IBMPlexSansArabic", size: 18))
                     .multilineTextAlignment(.center)
                 
-                Button(action: {}) {
+                Link(destination: URL(string: Links.about.rawValue)!) {
                     Text("اقرأ المزيد")
                         .font(.custom("IBMPlexSansArabic-SemiBold", size: 20))
+                        .foregroundColor(.vermilion)
                 }
-                .foregroundColor(.vermilion)
             }
             .padding(.horizontal, 50)
             .padding(.bottom, 100)

@@ -14,12 +14,18 @@ struct ProductionView: View {
             Spacer()
                 .frame(height: 15)
             
-            ImagesBannerView(images: ["img1", "img2", "img3", "img4"], reverse: false, duration: 100)
+            Link(destination: URL(string: Links.films.rawValue)!) {
+                VStack(spacing: 0) {
+                    ImagesBannerView(images: ["img1", "img2", "img3", "img4"], reverse: false, duration: 100)
+                    
+                    Spacer()
+                        .frame(height: 15)
+                    
+                    ImagesBannerView(images: ["img5", "img6", "img7", "img8"], reverse: true, duration: 80)
+                }
+            }
             
-            Spacer()
-                .frame(height: 15)
             
-            ImagesBannerView(images: ["img5", "img6", "img7", "img8"], reverse: true, duration: 80)
             
             Spacer()
                 .frame(height: 40)
