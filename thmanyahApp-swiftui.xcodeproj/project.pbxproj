@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A272433F277A66B5008D8D24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A272433E277A66B5008D8D24 /* LaunchScreen.storyboard */; };
+		A2724341277A6AB4008D8D24 /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = A2724340277A6AB4008D8D24 /* Readme.md */; };
 		A2BA12612771DC18009F4B0F /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BA12602771DC18009F4B0F /* Application.swift */; };
 		A2BA12632771DC18009F4B0F /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BA12622771DC18009F4B0F /* Main.swift */; };
 		A2BA12652771DC1A009F4B0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2BA12642771DC1A009F4B0F /* Assets.xcassets */; };
@@ -15,7 +17,6 @@
 		A2BA12722771E580009F4B0F /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BA12712771E580009F4B0F /* Data.swift */; };
 		A2BA12762771E961009F4B0F /* IBMPlexSansArabic-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = A2BA12742771E961009F4B0F /* IBMPlexSansArabic-Regular.otf */; };
 		A2BA12772771E961009F4B0F /* IBMPlexSansArabic-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = A2BA12752771E961009F4B0F /* IBMPlexSansArabic-SemiBold.otf */; };
-		A2BA127B2771EFED009F4B0F /* Introspect in Frameworks */ = {isa = PBXBuildFile; productRef = A2BA127A2771EFED009F4B0F /* Introspect */; };
 		A2BA127D2771F080009F4B0F /* LandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BA127C2771F080009F4B0F /* LandingView.swift */; };
 		A2BA127F2771F1FF009F4B0F /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BA127E2771F1FF009F4B0F /* StatsView.swift */; };
 		A2BA12822771FF67009F4B0F /* StatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BA12812771FF67009F4B0F /* StatModel.swift */; };
@@ -28,6 +29,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A272433E277A66B5008D8D24 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A2724340277A6AB4008D8D24 /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
 		A2BA125D2771DC18009F4B0F /* thmanyahApp-swiftui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "thmanyahApp-swiftui.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2BA12602771DC18009F4B0F /* Application.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Application.swift; sourceTree = "<group>"; };
 		A2BA12622771DC18009F4B0F /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
@@ -54,7 +57,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2BA127B2771EFED009F4B0F /* Introspect in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +66,7 @@
 		A2BA12542771DC18009F4B0F = {
 			isa = PBXGroup;
 			children = (
+				A2724340277A6AB4008D8D24 /* Readme.md */,
 				A2BA125F2771DC18009F4B0F /* thmanyahApp-swiftui */,
 				A2BA125E2771DC18009F4B0F /* Products */,
 			);
@@ -90,6 +93,7 @@
 				A2BA12602771DC18009F4B0F /* Application.swift */,
 				A2BA12642771DC1A009F4B0F /* Assets.xcassets */,
 				A2BA12662771DC1A009F4B0F /* Preview Content */,
+				A272433E277A66B5008D8D24 /* LaunchScreen.storyboard */,
 			);
 			path = "thmanyahApp-swiftui";
 			sourceTree = "<group>";
@@ -159,7 +163,6 @@
 			);
 			name = "thmanyahApp-swiftui";
 			packageProductDependencies = (
-				A2BA127A2771EFED009F4B0F /* Introspect */,
 			);
 			productName = "thmanyahApp-swiftui";
 			productReference = A2BA125D2771DC18009F4B0F /* thmanyahApp-swiftui.app */;
@@ -190,7 +193,6 @@
 			);
 			mainGroup = A2BA12542771DC18009F4B0F;
 			packageReferences = (
-				A2BA12792771EFED009F4B0F /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */,
 			);
 			productRefGroup = A2BA125E2771DC18009F4B0F /* Products */;
 			projectDirPath = "";
@@ -208,7 +210,9 @@
 			files = (
 				A2BA12682771DC1A009F4B0F /* Preview Assets.xcassets in Resources */,
 				A2BA12772771E961009F4B0F /* IBMPlexSansArabic-SemiBold.otf in Resources */,
+				A2724341277A6AB4008D8D24 /* Readme.md in Resources */,
 				A2BA12762771E961009F4B0F /* IBMPlexSansArabic-Regular.otf in Resources */,
+				A272433F277A66B5008D8D24 /* LaunchScreen.storyboard in Resources */,
 				A2BA12652771DC1A009F4B0F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -367,9 +371,11 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "thmanyahApp-swiftui/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Thmanyah;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
@@ -382,7 +388,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -398,9 +404,11 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "thmanyahApp-swiftui/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Thmanyah;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
@@ -413,7 +421,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -439,25 +447,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		A2BA12792771EFED009F4B0F /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/siteline/SwiftUI-Introspect.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 0.1.3;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		A2BA127A2771EFED009F4B0F /* Introspect */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = A2BA12792771EFED009F4B0F /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */;
-			productName = Introspect;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A2BA12552771DC18009F4B0F /* Project object */;
 }
