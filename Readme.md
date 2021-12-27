@@ -1,5 +1,8 @@
 # Thmanyah App
 
+<p align="center">
+  <img src="appIcon.png" />
+</p>
 ![appIcon](appIcon.png)
 
 clone for [company.thmanyah.com](https://company.thmanyah.com/) page (mobile version) in SwiftUI
