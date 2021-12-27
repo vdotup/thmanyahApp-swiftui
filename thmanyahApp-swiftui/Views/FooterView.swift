@@ -11,6 +11,7 @@ struct FooterView: View {
     var body: some View {
         VStack(spacing: 20) {
             Image("thmanyah-logo")
+                .renderingMode(.template)
                 .resizable()
                 .scaledToFit()
                 .frame(width: 101, height: 70)
@@ -22,25 +23,25 @@ struct FooterView: View {
                 Link(destination: URL(string: Links.about.rawValue)!) {
                     Text("عن الشركة")
                         .font(.custom("IBMPlexSansArabic", size: 18))
-                        .foregroundColor(.black)
+                        .foregroundColor(.primary)
                 }
                 
                 Link(destination: URL(string: Links.handbook.rawValue)!) {
                     Text("الدستور")
                         .font(.custom("IBMPlexSansArabic", size: 18))
-                        .foregroundColor(.black)
+                        .foregroundColor(.primary)
                 }
                 
                 Link(destination: URL(string: Links.jobs.rawValue)!) {
                     Text("الوظائف")
                         .font(.custom("IBMPlexSansArabic", size: 18))
-                        .foregroundColor(.black)
+                        .foregroundColor(.primary)
                 }
                 
                 Link(destination: URL(string: Links.blog.rawValue)!) {
                     Text("المدونة")
                         .font(.custom("IBMPlexSansArabic", size: 18))
-                        .foregroundColor(.black)
+                        .foregroundColor(.primary)
                 }
                 
                 
@@ -50,12 +51,12 @@ struct FooterView: View {
                 Link(destination: URL(string: Links.mediaKit.rawValue)!) {
                     Text("مواد تساعد الإعلام")
                         .font(.custom("IBMPlexSansArabic", size: 18))
-                        .foregroundColor(.black)
+                        .foregroundColor(.primary)
                 }
                 Link(destination: URL(string: Links.visualIdentity.rawValue)!) {
                     Text("الهوية البصرية")
                         .font(.custom("IBMPlexSansArabic", size: 18))
-                        .foregroundColor(.black)
+                        .foregroundColor(.primary)
                 }
             }
             
@@ -63,17 +64,17 @@ struct FooterView: View {
                 Link(destination: URL(string: Links.privacyPolicy.rawValue)!) {
                     Text("سياسة الخصوصية")
                         .font(.custom("IBMPlexSansArabic", size: 18))
-                        .foregroundColor(.black)
+                        .foregroundColor(.primary)
                 }
                 Link(destination: URL(string: Links.contact.rawValue)!) {
                     Text("اتصل بنا")
                         .font(.custom("IBMPlexSansArabic", size: 18))
-                        .foregroundColor(.black)
+                        .foregroundColor(.primary)
                 }
                 Link(destination: URL(string: Links.faq.rawValue)!) {
                     Text("أسئلة متكررة")
                         .font(.custom("IBMPlexSansArabic", size: 18))
-                        .foregroundColor(.black)
+                        .foregroundColor(.primary)
                 }
             }
             
@@ -85,22 +86,28 @@ struct FooterView: View {
                     Spacer()
                     Link(destination: URL(string: Links.linkedIn.rawValue)!) {
                         Image("linkedin")
+                            .renderingMode(.template)
                             .resizable()
                             .scaledToFit()
+                            .foregroundColor(.primary)
                             .frame(width: 20, height: 20)
                     }
                     Spacer()
                     Link(destination: URL(string: Links.twitter.rawValue)!) {
                         Image("twitter")
+                            .renderingMode(.template)
                             .resizable()
                             .scaledToFit()
+                            .foregroundColor(.primary)
                             .frame(width: 20, height: 20)
                     }
                     Spacer()
                     Link(destination: URL(string: Links.facebook.rawValue)!) {
                         Image("facebook")
+                            .renderingMode(.template)
                             .resizable()
                             .scaledToFit()
+                            .foregroundColor(.primary)
                             .frame(width: 20, height: 20)
                     }
                 }
@@ -108,15 +115,19 @@ struct FooterView: View {
                     Spacer()
                     Link(destination: URL(string: Links.instagram.rawValue)!) {
                         Image("instagram")
+                            .renderingMode(.template)
                             .resizable()
                             .scaledToFit()
+                            .foregroundColor(.primary)
                             .frame(width: 20, height: 20)
                     }
                     Spacer()
                     Link(destination: URL(string: Links.youtube.rawValue)!) {
                         Image("youtube")
+                            .renderingMode(.template)
                             .resizable()
                             .scaledToFit()
+                            .foregroundColor(.primary)
                             .frame(width: 20, height: 20)
                     }
                     Spacer()
@@ -135,5 +146,8 @@ struct FooterView: View {
 struct FooterView_Previews: PreviewProvider {
     static var previews: some View {
         FooterView()
+            .preferredColorScheme(.dark)
+        FooterView()
+            .preferredColorScheme(.light)
     }
 }

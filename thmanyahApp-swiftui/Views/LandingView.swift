@@ -40,10 +40,12 @@ struct LandingView: View {
                 Text(landing_subtitle)
                     .font(.custom("IBMPlexSansArabic-SemiBold", size: 26))
                     .multilineTextAlignment(.center)
+                    .foregroundColor(.black)
                 
                 Text(landing_description)
                     .font(.custom("IBMPlexSansArabic", size: 18))
                     .multilineTextAlignment(.center)
+                    .foregroundColor(.black)
                 
                 Link(destination: URL(string: Links.about.rawValue)!) {
                     Text("اقرأ المزيد")
@@ -61,5 +63,8 @@ struct LandingView: View {
 struct LandingView_Previews: PreviewProvider {
     static var previews: some View {
         LandingView(showingSideBar: .constant(false))
+            .preferredColorScheme(.dark)
+        LandingView(showingSideBar: .constant(false))
+            .preferredColorScheme(.light)
     }
 }

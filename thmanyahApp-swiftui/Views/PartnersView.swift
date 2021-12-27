@@ -14,8 +14,10 @@ struct PartnersView: View {
                 .frame(height: 150)
             
             Image("partners")
+                .renderingMode(.template)
                 .resizable()
                 .scaledToFit()
+                .foregroundColor(.primary)
             
             Spacer()
                 .frame(height: 70)
@@ -42,5 +44,8 @@ struct PartnersView: View {
 struct PartnersView_Previews: PreviewProvider {
     static var previews: some View {
         PartnersView()
+            .preferredColorScheme(.dark)
+        PartnersView()
+            .preferredColorScheme(.light)
     }
 }

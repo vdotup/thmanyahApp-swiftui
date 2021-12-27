@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct ProductionView: View {
+    
+    @Environment(\.colorScheme) private var scheme
     var body: some View {
         VStack(spacing: 0) {
             
@@ -40,19 +42,22 @@ struct ProductionView: View {
             
             Text(production_description)
                 .font(.custom("IBMPlexSansArabic-SemiBold", size: 17))
-                .foregroundColor(.white)
+                .foregroundColor(scheme == .light ? .white : .black)
                 .multilineTextAlignment(.center)
             
             Spacer()
                 .frame(height: 80)
         }
         .padding(.horizontal, 32)
-        .background(.black)
+        .background(.primary)
     }
 }
 
 struct ProductionView_Previews: PreviewProvider {
     static var previews: some View {
         ProductionView()
+            .preferredColorScheme(.light)
+        ProductionView()
+            .preferredColorScheme(.dark)
     }
 }

@@ -55,12 +55,15 @@ struct SideBarView: View {
             Spacer()
         }
         .frame(maxWidth: .infinity)
-        .background(.thinMaterial)
+        .background(.white)
     }
 }
 
 struct SideBarView_Previews: PreviewProvider {
     static var previews: some View {
         SideBarView(showingSideBar: .constant(true))
+            .preferredColorScheme(.dark)
+        SideBarView(showingSideBar: .constant(true))
+            .preferredColorScheme(.light)
     }
 }
